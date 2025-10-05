@@ -1,16 +1,17 @@
 Comparing Rain in Seattle and Québec City 
 
-> This project will compare precipitation in Seattle to Québec City. Utilizing data obtained from NOAA weather stations, we will determine which city receives more rainfall. 
+> This project will compare precipitation in Seattle to Québec City. Utilizing data obtained from NOAA weather stations, we will determine which city receives more rain. 
 
 ---
 
 ## Project Overview
 
-Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
 
-- **Objective:** Clearly state the main goal of the project.
-- **Domain:** (e.g., Healthcare, Finance, E-commerce, etc.)
-- **Key Techniques:** (e.g., Regression, Classification, Clustering, NLP, Time Series)
+- **Objective:** The main goal of the project is to determine if it rains more in Seattle or Québec City. 
+- **Domain:** Environmental/Earth Science 
+- **Key Techniques:** Time Series, Data Imputation
+
+The project used daily precipitation data from NOAA weather stations to determine if it rains more in Seattle or Québec City. It was determined that it rains more in one city depending on the season. In the winter, it tends to rain more in Seattle while in the summer it tends to rain more in Québec City.
 
 ---
 
@@ -29,37 +30,30 @@ Provide a short and concise overview of the project. Mention the problem it solv
 ## Data
 
 - **Source:** https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND 
-- **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
+- **Description:** Data retrieved in .csv file format containing station name, date, and precipitation data. Total entries 3,431.
 
 ---
 
 ## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+The project used the notebook "Weather project v4" as the final notebook in the analysis. 
 
 ---
 
 ## Results
 
-Include a short discussion of the findings and what they imply.
+Summary statistics and bar graphs indicated that there is not a significant difference in number of times it rained and quantity of precipitation when viewing data daily. Viewing the data in a monthly perspective shows there is a seasonal difference in the amount it rains between Québec City and Seattle. In the winter, it tends to rain more in Seattle while in the summer it tends to rain more in Québec City.
 
 ---
 
 ## Authors
 
-- Your Name - [@yourhandle](https://github.com/yourhandle)
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Emily Larson - [elarson5](https://github.com/elarson5)
 
 ---
 
 ## Acknowledgements
 
-- Tools/libraries used
-- Tutorials or papers referenced
-- Inspiration or collaborators
+- NOAA, Jupyter Lab
+- DATA 5100 Source Material
+
