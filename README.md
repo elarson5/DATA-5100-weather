@@ -36,7 +36,7 @@ The project used daily precipitation data from NOAA weather stations to determin
 
 ## Analysis
 
-The project used the notebook "Weather project v4" as the final notebook in the analysis. 
+The project used the notebook "Weather project v4" as the final ver
 
 ---
 
