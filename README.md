@@ -36,7 +36,7 @@ The project used daily precipitation data from NOAA weather stations to determin
 
 ## Analysis
 
-The project used the notebook "Weather project v4" as the final ver
+The project used the notebook "Weather project v4" as the final version. The project assessed the datasets for suitability of the question and changed the DATE variable to make it useable in the project. Then the two datasets were merged and missing values imputed using mean values. Finally, data was analyzed  using a descriptive approach with summary statistics and bar graphs. 
 
 ---
 
